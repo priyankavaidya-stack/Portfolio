@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .sidebar-item {
+    @apply relative flex items-center justify-items-center pt-2 pb-2 mx-8;
+  }
+
+  .sidebar-icon {
+    @apply relative flex items-center justify-center h-9 w-9 mx-3
+     shadow-lg bg-gray-800 text-[#20c997]
+    hover:bg-[#20c997] hover:text-white rounded-3xl
+    hover:rounded-xl transition-all duration-300 ease-linear;
+  }
+
+  .sidebar-profile {
+    @apply mt-10 mb-2 mx-8 flex flex-col items-center justify-center;
+  }
+
+  .sidebar-img {
+    @apply relative flex items-center justify-center w-44 h-44 shadow-lg rounded-full bg-[#343a40] mb-2;
+  }
+
+  .profile {
+    @apply px-2 py-2 rounded-full;
+  }
+
+  .heroButton {
+    @apply px-5 py-2 border border-[#343a40] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#20c997]/40 hover:text-[#20c997]/40;
+  }
+
+}
