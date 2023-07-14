@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -28,6 +32,14 @@
 
   .heroButton {
     @apply px-5 py-2 border border-[#343a40] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#20c997]/40 hover:text-[#20c997]/40;
+  }
+
+  /* Display project cards in listing page */ 
+  .listing {
+    @apply relative w-[25%] min-w-[300px] max-w-[400px] m-5 cursor-pointer bg-white rounded-[10px] overflow-hidden shadow-[0px_8px_24px_rgba(149,157,165,0.2)] before:block before:pb-[calc((5/4)*100%)]
+  }
+  .listing__row {
+    @apply flex items-center my-1.5;
   }
 
 }
