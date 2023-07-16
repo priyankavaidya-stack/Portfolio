@@ -19,11 +19,11 @@ const Portfolio = () => {
                         </p>
                     </div>
                     <div className="properties flex flex-row flex-wrap justify-center">
+                        <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-4 gap-4">
                         {projectData.map((item) => (
-                            <div>
                                 <Card data={item}/>
-                            </div>   
                         ))}
+                        </div>
                     </div>
                 </div>
             </section>

@@ -36,10 +36,21 @@ html{
 
   /* Display project cards in listing page */ 
   .listing {
-    @apply relative w-[25%] min-w-[300px] max-w-[400px] m-5 cursor-pointer bg-white rounded-[10px] overflow-hidden shadow-[0px_8px_24px_rgba(149,157,165,0.2)] before:block before:pb-[calc((5/4)*100%)]
+    @apply relative w-[25%] min-w-[300px] max-w-[400px] m-5 cursor-pointer bg-white rounded-[10px] overflow-hidden shadow-[0px_8px_24px_rgba(149,157,165,0.2)] before:block before:pb-[calc((5/4)*100%)];
   }
   .listing__row {
     @apply flex items-center my-1.5;
   }
 
+  .overlay {
+    @apply fixed top-0 left-0 w-full h-full bg-[#212529] z-[1000] flex justify-center overflow-y-scroll items-start py-10;
+  }
+
+  .modal {
+    @apply min-[991px]:w-[800px] min-[1201px]:w-[1140px] max-[768px]:w-[500px] border border-solid border-[#0000002d] rounded-lg text-[#dee3e4] bg-[#343a40];
+  }
+
+  .crossBtn {
+    @apply float-right cursor-pointer border-0 rounded-md box-content h-4 opacity-[0.5] p-1 w-4 content-center items-center;
+  }
 }

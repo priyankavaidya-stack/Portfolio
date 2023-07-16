@@ -16,7 +16,7 @@ const About = () => {
                     </div>
 
                     {/* about personal info feature */}
-                    <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 mt-12">
+                    <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 mt-12 max-[350px]:block">
                         <div className="md:col-span-12 min-[991px]:col-span-7 xl:col-span-8 min-[991px]:text-left max-[991px]:text-center mx-3">
                             <h2 className='text-[1.75rem] font-semibold mb-3 text-white'>I'm <span className='text-[#20c997]'>Priyanka Vaidya,</span> a Web Developer</h2>
                             <p className='text-[#ffffff80] leading-[1.8]'>I help you build brand for your business at an affordable price.
