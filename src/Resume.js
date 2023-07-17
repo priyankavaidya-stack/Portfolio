@@ -19,45 +19,69 @@ const Resume = () => {
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-12 gap-4">
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <h2 className='text-[1.5rem] font-semibold mb-4 text-white'>My Education</h2>
-                            <div className='text-white rounded-md p-6 mb-6 bg-[#111418]'>
+                            <div className='text-white rounded-md p-6 mb-4 bg-[#111418]'>
                                 <p className='bg-[#20c997] rounded-md py-[0.35em] px-[0.65em] leading-none font-normal text-sm w-fit mb-3'>2018 - 2022</p>
-                                <h3 className='text-white text-[21px] mb-2'>Bachelor of Technology in Computer Science</h3>
+                                <h3 className='text-white text-[21px] mb-2'>Bachelor of Tech in Computer Science</h3>
                                 <p className='text-[#20c997] mb-4'>Government College of Engineering, Aurangabad.</p>
                                 <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
-                                    Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                                    CGPA: 8.9
+                                </p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                    Location : Aurangabad, MH, IN
                                 </p>
                             </div>
                         </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <h2 className='text-[1.5rem] font-semibold mb-4 text-white'>My Experience</h2>
                             <div className='text-white rounded-md p-6 mb-6 bg-[#111418]'>
-                                <p className='bg-[#20c997] rounded-md py-[0.35em] px-[0.65em] leading-none font-normal text-sm w-fit mb-3'>2022 - Present</p>
+                                <p className='bg-[#20c997] rounded-md py-[0.35em] px-[0.65em] leading-none font-normal text-sm w-fit mb-3'>July 2023 - Present</p>
+                                <h3 className='text-white text-[21px] mb-2'>Senior Engineer</h3>
+                                <p className='text-[#20c997] mb-4'>L&T-Cloudfiniti</p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                    Location: Mumbai, MH
+                                </p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                    Skills Developed: Jquery, Redux, tailwindCss, SQL
+                                </p>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <div className='text-white rounded-md p-6 mb-4 bg-[#111418]'>
+                                <p className='bg-[#20c997] rounded-md py-[0.35em] px-[0.65em] leading-none font-normal text-sm w-fit mb-3'>2016 - 2017</p>
+                                <h3 className='text-white text-[21px] mb-2'>HSC</h3>
+                                <p className='text-[#20c997] mb-4'>Janata Junior College, Mouda</p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                Percentage: 80.15%
+                                </p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                Location : Nagpur, MH, IN
+                                </p>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <div className='text-white rounded-md p-6 mb-6 bg-[#111418]'>
+                                <p className='bg-[#20c997] rounded-md py-[0.35em] px-[0.65em] leading-none font-normal text-sm w-fit mb-3'>July 2022 - June 2023</p>
                                 <h3 className='text-white text-[21px] mb-2'>Graduate Engineer Trainee</h3>
                                 <p className='text-[#20c997] mb-4'>L&T-Cloudfiniti</p>
                                 <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
-                                    Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.
+                                    Location: Mumbai, MH
+                                </p>
+                                <p className='mb-0 text-[#ffffff80] leading-[1.8]'>
+                                    Skills Developed: HTML, CSS, Javascript, Bootstrap, NodeJS, Express, SQL, ReactJS
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     {/* Skills section */}
-                    <h2 className='text-2xl font-semibold mt-6 mx-3 text-white'>My Skills</h2>
+                    <h2 className='text-2xl font-semibold mt-6 mx-3 text-white' id="skills">My Skills</h2>
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-6 gap-4">
-                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
-                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Web Design
-                                <span className='float-right'>65%</span>
-                            </p>
-                            <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[65%] rounded-s"></div>
-                            </div>
-                        </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Html/Css
                                 <span className='float-right'>95%</span>
                             </p>
                             <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[95%] rounded-s"></div>
+                                <div className="bg-[#20c997] h-2 w-[95%] rounded-s"></div>
                             </div>
                         </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
@@ -65,7 +89,7 @@ const Resume = () => {
                                 <span className='float-right'>75%</span>
                             </p>
                             <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[75%] rounded-s"></div>
+                                <div className="bg-[#20c997] h-2 w-[75%] rounded-s"></div>
                             </div>
                         </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
@@ -73,15 +97,23 @@ const Resume = () => {
                                 <span className='float-right'>70%</span>
                             </p>
                             <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[70%] rounded-s"></div>
+                                <div className="bg-[#20c997] h-2 w-[70%] rounded-s"></div>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Redux
+                                <span className='float-right'>55%</span>
+                            </p>
+                            <div className='bg-[#111418] h-2 rounded-md'>
+                                <div className="bg-[#20c997] h-2 w-[55%] rounded-s"></div>
                             </div>
                         </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Tailwind CSS
-                                <span className='float-right'>65%</span>
+                                <span className='float-right'>75%</span>
                             </p>
                             <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[65%] rounded-s"></div>
+                                <div className="bg-[#20c997] h-2 w-[75%] rounded-s"></div>
                             </div>
                         </div>
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
@@ -89,7 +121,39 @@ const Resume = () => {
                                 <span className='float-right'>90%</span>
                             </p>
                             <div className='bg-[#111418] h-2 rounded-md'>
-                                <div class="bg-[#20c997] h-2 w-[90%] rounded-s"></div>
+                                <div className="bg-[#20c997] h-2 w-[90%] rounded-s"></div>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>SQL
+                                <span className='float-right'>70%</span>
+                            </p>
+                            <div className='bg-[#111418] h-2 rounded-md'>
+                                <div className="bg-[#20c997] h-2 w-[70%] rounded-s"></div>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>MongoDB
+                                <span className='float-right'>60%</span>
+                            </p>
+                            <div className='bg-[#111418] h-2 rounded-md'>
+                                <div className="bg-[#20c997] h-2 w-[60%] rounded-s"></div>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Web Design
+                                <span className='float-right'>65%</span>
+                            </p>
+                            <div className='bg-[#111418] h-2 rounded-md'>
+                                <div className="bg-[#20c997] h-2 w-[65%] rounded-s"></div>
+                            </div>
+                        </div>
+                        <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
+                            <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>Figma
+                                <span className='float-right'>70%</span>
+                            </p>
+                            <div className='bg-[#111418] h-2 rounded-md'>
+                                <div className="bg-[#20c997] h-2 w-[65%] rounded-s"></div>
                             </div>
                         </div>
                     </div>

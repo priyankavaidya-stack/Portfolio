@@ -38,12 +38,12 @@ const Listing = ({data,open}) => {
                         <div className=' flex flex-col justify-evenly items-start h-[35%]'>
                             <h3 className='text-white text-[21px] mb-2 mt-3'>{title}</h3>
                             <p className='text-[#20c997] mb-4'>{description}</p>
-                            <p className='mb-0 text-[#ffffff80] leading-[1.8] flex items-center my-2'>
+                            <div className='mb-0 text-[#ffffff80] leading-[1.8] flex items-center'>
                                 <ProjectIcon iconName={icon1} />
                                 <ProjectIcon iconName={icon2} />
                                 <ProjectIcon iconName={icon3} />
                                 <ProjectIcon iconName={icon4} />
-                            </p>
+                            </div>
                         </div>
                     </div>
                 // </div>

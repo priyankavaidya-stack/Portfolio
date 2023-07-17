@@ -34,7 +34,7 @@ const Modal = ({data,close}) => {
                                     <li className='py-3 border-b border-solid border-[#fafafa1f]'><span className='mr-2'>URL:</span><a href={projectUrl}>{projectUrl}</a></li>
                                 </ul>
 
-                                <div className='modal__row flex items-center text-left my-5'>
+                                <div className='modal__row text-left my-5 flex items-center'>
                                     <ProjectIcon iconName={icon1} />
                                     <ProjectIcon iconName={icon2} />
                                     <ProjectIcon iconName={icon3} />

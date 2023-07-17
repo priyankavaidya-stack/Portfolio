@@ -4,7 +4,7 @@ import { FaPencilRuler, FaDesktop, FaLaptopCode, FaServer } from 'react-icons/fa
 const Services = () => {
     return(
         <div className='min-[991px]:ml-60'>
-            <section id="services" className='bg-[#343a40] py-16'>
+            <section id="whatIdo" className='bg-[#343a40] py-16'>
                 <div className='container mx-auto min-[991px]:px-12'>
 
                     {/* services heading feature */}

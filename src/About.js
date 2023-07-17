@@ -19,12 +19,12 @@ const About = () => {
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 mt-12 max-[350px]:block">
                         <div className="md:col-span-12 min-[991px]:col-span-7 xl:col-span-8 min-[991px]:text-left max-[991px]:text-center mx-3">
                             <h2 className='text-[1.75rem] font-semibold mb-3 text-white'>I'm <span className='text-[#20c997]'>Priyanka Vaidya,</span> a Web Developer</h2>
-                            <p className='text-[#ffffff80] leading-[1.8]'>I help you build brand for your business at an affordable price.
-                               Thousands of clients have procured exceptional results while working with our dedicated team.
-                               when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            <p className='text-[#ffffff80] leading-[1.8]'>Front-end developer with 1+ years of experience designing and
+                            building responsive web design, proficient with CSS and JS
+                            Frameworks, with extensive knowledge of UX and user
+                            psychology.
                             </p>
-                            <p className='text-[#ffffff80] leading-[1.8] mb-4'>Delivering work within time and budget which meets client’s requirements is our moto.
-                                Lorem Ipsum has been the industry's standard dummy text ever when an unknown printer took a galley.
+                            <p className='text-[#ffffff80] leading-[1.8] mb-4'>Delivering work within time which meets user's psychology is my moto.
                             </p>
                         </div>
                         <div className="md:col-span-12 min-[991px]:col-span-5 xl:col-span-4 mx-3">
@@ -66,22 +66,13 @@ const About = () => {
                             <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 pr-3 relative border-r border-b border-dotted border-[#fafafa26]'>
                                 <div className='text-center'>
                                     <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
-                                        <span>3</span>
+                                        <span>1</span>
                                         +
                                     </h4>
-                                    <p className='mb-0 text-[#dee3e4]'>Years Experience</p>
+                                    <p className='mb-0 text-[#dee3e4]'>Years Industry Experience</p>
                                 </div>
                             </div>
                             <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 px-3 max-[639px]:pr-0 relative border-r border-b border-dotted border-[#fafafa26] max-[639px]:border-r-0'>
-                            <div className='text-center'>
-                                    <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
-                                        <span>250</span>
-                                        +
-                                    </h4>
-                                    <p className='mb-0 text-[#dee3e4]'>Happy Clients</p>
-                                </div>
-                            </div>
-                            <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 px-3 max-[639px]:pl-0 relative border-r border-b border-dotted border-[#fafafa26] max-[639px]:border-b-0'>
                             <div className='text-center'>
                                     <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
                                         <span>10</span>
@@ -90,12 +81,21 @@ const About = () => {
                                     <p className='mb-0 text-[#dee3e4]'>Projects Done</p>
                                 </div>
                             </div>
+                            <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 px-3 max-[639px]:pl-0 relative border-r border-b border-dotted border-[#fafafa26] max-[639px]:border-b-0'>
+                            <div className='text-center'>
+                                    <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
+                                        <span>5</span>
+                                        +
+                                    </h4>
+                                    <p className='mb-0 text-[#dee3e4]'>Hands On Experience</p>
+                                </div>
+                            </div>
                             <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 pl-3 relative border-b border-[#fafafa26] max-[639px]:border-b-0'>
                             <div className='text-center'>
                                     <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
-                                        <span>38</span>
+                                        <span>10+</span>
                                     </h4>
-                                    <p className='mb-0 text-[#dee3e4]'>Get Awards</p>
+                                    <p className='mb-0 text-[#dee3e4]'>Tools Exp</p>
                                 </div>
                             </div>
                         </div>

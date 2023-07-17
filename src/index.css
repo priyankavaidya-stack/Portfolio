@@ -31,7 +31,7 @@ html{
   }
 
   .heroButton {
-    @apply px-5 py-2 border border-[#343a40] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#20c997]/40 hover:text-[#20c997]/40;
+    @apply px-4 py-2 border border-[#343a40] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#20c997]/40 hover:text-[#20c997]/40;
   }
 
   /* Display project cards in listing page */ 

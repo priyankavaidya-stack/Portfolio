@@ -22,15 +22,28 @@ const Sidebar = () => {
  
     return (
         <div>
-            <div className='min-[991px]:block hidden fixed top-0 left-0 h-screen w-60 m-0 flex-col bg-[#111418] text-white shadow-lg'>
+            <div className='min-[991px]:flex hidden fixed top-0 left-0 h-screen w-60 m-0 flex-col bg-[#111418] text-white shadow-lg overflow-y-scroll'>
 
                 <div>
                     <SideBarImg profile={<img className='profile' alt="priyanka" src={image} />} />
                 </div>
 
-                {menuLinks.map((item,index)=>(
-                    <SideBarItem key={index} icon={item.icon} text={item.name} link={item.link} />
-                ))}
+                <div className='my-auto'>
+                    {menuLinks.map((item,index)=>(
+                        <SideBarItem key={index} icon={item.icon} text={item.name} link={item.link} />
+                    ))}
+                </div>
+
+                <div className='border-t solid border-gray-800'>
+                    <ul className='flex items-center justify-center p-1'>
+                        <a href="https://www.linkedin.com/in/priyanka-vaidya-/893b25186">
+                            <BsLinkedin className='m-2' size={14} color='#aab1b8' />
+                        </a>
+                        <a href="https://github.com/priyankavaidya-stack"> 
+                            <BsGithub className='m-2' size={14} color='#aab1b8' />
+                        </a>
+                    </ul>
+                </div>
 
             </div>
            
