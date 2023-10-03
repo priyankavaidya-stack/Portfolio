@@ -6,7 +6,7 @@ export const projectData = [
     {
         id: 1,
         imageUrl : drawing,
-        projectUrl: "https://www.fixfd.com",
+        projectUrl: "https://melodic-brigadeiros-e6537d.netlify.app/",
         title: "ColorCraft Canvas:",
         description: "ColorCraft Canvas is a feature-rich and user-friendly drawing tool app that empowers artists of all levels to unleash their creativity and craft captivating artworks. With an array of powerful drawing tools and a vibrant color palette at your fingertips, you can bring your imagination to life and create stunning designs effortlessly.",
         icon1:  <FaHtml5 size='20' className="text-[#e34c26]" />,
