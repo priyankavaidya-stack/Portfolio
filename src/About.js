@@ -19,34 +19,17 @@ const About = () => {
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 mt-12 max-[350px]:block">
                         <div className="md:col-span-12 min-[991px]:col-span-7 xl:col-span-8 min-[991px]:text-left max-[991px]:text-center mx-3">
                             <h2 className='text-[1.75rem] font-semibold mb-3 text-white'>I'm <span className='text-[#20c997]'>Priyanka Vaidya,</span> a Web Developer</h2>
-                            <p className='text-[#ffffff80] leading-[1.8]'>Front-end developer with 1+ years of experience designing and
-                            building responsive web design, proficient with CSS and JS
-                            Frameworks, with extensive knowledge of UX and user
-                            psychology.
-                            </p>
-                            <p className='text-[#ffffff80] leading-[1.8] mb-4'>Delivering work within time which meets user's psychology is my moto.
-                            </p>
+                            <p className='text-[#ffffff80] leading-[1.8]'>Front-end developer with 1+ years of experience in designing and
+                            building responsive web design. I am always excited to tackle new challenges, collaborate with cross-functional teams, and contribute to projects that push the boundaries of web development.</p>
                         </div>
                         <div className="md:col-span-12 min-[991px]:col-span-5 xl:col-span-4 mx-3">
                             <div className='min-[991px]:pl-6'>
                                 <ul className='p-0 text-[#dee3e4] mb-4'>
                                     <li className='py-3 border-b border-[#fafafa1f]'>
                                         <span className='font-semibold mr-2'>
-                                            Name:
-                                        </span>
-                                        Priyanka Vaidya
-                                    </li>
-                                    <li className='py-3 border-b border-[#fafafa1f]'>
-                                        <span className='font-semibold mr-2'>
                                         Email:
                                         </span>
                                         <span className='text-[#20c997] w-fit'>vaidyapriyanka80@gmail.com</span>
-                                    </li>
-                                    <li className='py-3 border-b border-[#fafafa1f]'>
-                                        <span className='font-semibold mr-2'>
-                                            Age:
-                                        </span>
-                                        23
                                     </li>
                                     <li className='py-3 border-0'>
                                         <span className='font-semibold mr-2'>
@@ -55,7 +38,8 @@ const About = () => {
                                         Nagpur, Maharashtra
                                     </li>
                                 </ul>
-                                <button className='btn btn-blue rounded-full bg-[#20c997] border-[#20c997] border-2 shadow-[0_5px_15px_rgba(0,0,0,0.15)]" text-white py-[0.8rem] px-[2.6rem] font-mediums hover:transition-all duration-500 ease-linear max-[639px]:py-[0.81rem] max-[639px]:px-[2rem]'>Download CV</button>
+                                <button className='btn btn-blue rounded-full bg-[#20c997] border-[#20c997] border-2 shadow-[0_5px_15px_rgba(0,0,0,0.15)]" text-white py-[0.7rem] px-[2.4rem] font-mediums hover:transition-all duration-500 ease-linear max-[639px]:py-[0.81rem] max-[639px]:px-[2rem]'>
+                                    <a href="#portfolio">My Work</a></button>
                             </div>
                         </div>
                     </div>
@@ -75,7 +59,7 @@ const About = () => {
                             <div className='max-[990px]:col-span-3 min-[991px]:col-span-3 max-[639px]:col-span-6 py-5 px-3 max-[639px]:pr-0 relative border-r border-b border-dotted border-[#fafafa26] max-[639px]:border-r-0'>
                             <div className='text-center'>
                                     <h4 className='text-[calc(1.425rem_+_2.1vw)] min-[1200px]:text-5xl text-[#ffffff80] font-medium mb-2.5'>
-                                        <span>10</span>
+                                        <span>20</span>
                                         +
                                     </h4>
                                     <p className='mb-0 text-[#dee3e4]'>Projects Done</p>

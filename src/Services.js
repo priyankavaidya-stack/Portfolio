@@ -29,7 +29,9 @@ const Services = () => {
                                             <FaLaptopCode />
                                         </div>
                                         <h3 className='text-[20px] text-white font-medium mb-2.5 leading-5'>Front End Development</h3>
-                                        <p className='mb-0 text-[#ffffff80]'>2 making it over 2000 years old. Richard McClintock, a Latin professor at he more obscure Latin words, a Latin professor at he more obscure Latin words</p>
+                                        <p className='mb-0 text-[#ffffff80]'>
+                                        As a front-end developer, I put my knowledge and experience in building responsive layouts, optimizing performance, or ensuring web accessibility. Explore my portfolio to see examples of my work.
+                                        </p>
                                     </div>
                                 </div>
                                 <div className='max-[990px]:col-span-6 min-[991px]:col-span-6 max-[768px]:col-span-12 mx-3'>
@@ -38,7 +40,7 @@ const Services = () => {
                                             <FaDesktop />
                                         </div>
                                         <h3 className='text-[20px] text-white font-medium mb-2.5 leading-5'>Web Design</h3>
-                                        <p className='mb-0 text-[#ffffff80]'>2 making it over 2000 years old. Richard McClintock, a Latin professor at he more obscure Latin words, a Latin professor at he more obscure Latin words</p>
+                                        <p className='mb-0 text-[#ffffff80]'>I have a growing interest in web design and am excited to learn and explore more in this field. I enjoy experimenting with design concepts and creating simple web layouts.</p>
                                     </div>
                                 </div>
                                 <div className='max-[990px]:col-span-6 min-[991px]:col-span-6 max-[768px]:col-span-12 mx-3'>
@@ -47,7 +49,7 @@ const Services = () => {
                                             <FaServer />
                                         </div>
                                         <h3 className='text-[20px] text-white font-medium mb-2.5 leading-5'>Back End Development</h3>
-                                        <p className='mb-0 text-[#ffffff80]'>2 making it over 2000 years old. Richard McClintock, a Latin professor at he more obscure Latin words, a Latin professor at he more obscure Latin words</p>
+                                        <p className='mb-0 text-[#ffffff80]'>I have a working knowledge of back-end development. My experience includes working with technologies such as Node.js and Express, allowing me to bridge the gap between front-end and back-end development.</p>
                                     </div>
                                 </div>
                                 <div className='max-[990px]:col-span-6 min-[991px]:col-span-6 max-[768px]:col-span-12 mx-3'>
@@ -56,7 +58,11 @@ const Services = () => {
                                             <FaPencilRuler />
                                         </div>
                                         <h3 className='text-[20px] text-white font-medium mb-2.5 leading-5'>UI/UX Design</h3>
-                                        <p className='mb-0 text-[#ffffff80]'>2 making it over 2000 years old. Richard McClintock, a Latin professor at he more obscure Latin words, a Latin professor at he more obscure Latin words</p>
+                                        <p className='mb-0 text-[#ffffff80]'>
+                                            I enjoy turning complex problems into simple, beautiful and intuitive designs.
+                                            I start with research, ideation, wireframing, prototyping, and testing.
+                                            I focus on responsive design, user-centered approach and problem solving.
+                                        </p>
                                     </div>
                                 </div>
                             </div>

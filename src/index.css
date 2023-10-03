@@ -53,4 +53,8 @@ html{
   .crossBtn {
     @apply float-right cursor-pointer border-0 rounded-md box-content h-4 opacity-[0.5] p-1 w-4 content-center items-center;
   }
+  .expList {
+    list-style: disc;
+    padding-left: 20px;
+  }
 }

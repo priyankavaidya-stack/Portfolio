@@ -4,7 +4,6 @@ import ProjectDetail from "./ProjectDetail";
 import Modal from "./Modal";
 
 const Card = ({data}) => {
-    // const {imageUrl, title, description, icon1, icon2, icon3, icon4  } = data;
 
     const [open, setOpen] = useState(false);
 
