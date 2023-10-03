@@ -5,7 +5,7 @@ import { MdWork }  from 'react-icons/md';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import image from './img.jpg';
+import image from '../images/img.jpg';
 
 
 const Sidebar = () => {

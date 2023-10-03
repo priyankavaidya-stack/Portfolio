@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import backgroundImage from './backgroundImage.jpg';
+import backgroundImage from '../images/backgroundImage.jpg';
 import { Cursor,useTypewriter } from 'react-simple-typewriter';
-import profile from './img.jpg';
+import profile from '../images/img.jpg';
 
 export default function Hero() {
     // eslint-disable-next-line

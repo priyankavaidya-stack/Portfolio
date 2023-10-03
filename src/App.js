@@ -1,11 +1,11 @@
 import { BrowserRouter as Router } from "react-router-dom";
-import Home from './Home';
-import About from "./About";
-import Services from './Services';
-import Resume from './Resume';
-import Sidebar from './Sidebar';
-import Portfolio from "./Portfolio";
-import Footer from "./Footer";
+import Home from './components/Home';
+import About from "./components/About";
+import Services from './components/Services';
+import Resume from './components/Resume';
+import Sidebar from './components/Sidebar';
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 
 function App() {

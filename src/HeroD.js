@@ -1,8 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import BackgroundCircles from './BackgroundCircles';
-// import backgroundImage from './backgroundImage.jpg';
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import profile from './img.jpg';
 

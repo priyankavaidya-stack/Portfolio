@@ -1,6 +1,6 @@
 import { FaHtml5, FaCss3Alt, FaReact, FaFontAwesome } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
-import drawing from './drawTool.png'
+import drawing from '../images/drawTool.png'
 
 export const projectData = [
     {
