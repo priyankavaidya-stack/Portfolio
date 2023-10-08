@@ -2,7 +2,7 @@ import React from 'react';
 import ProjectIcon from './ProjectIcons';
 
 const Listing = ({data,open}) => {
-    const {imageUrl, title, description, icon1, icon2, icon3, icon4  } = data;
+    const {imageUrl, title, description, icon1, icon2, icon3, icon4, icon5  } = data;
     var desc = description.slice(0,100) + `.....read more`;
     return (
                     <div className='text-white rounded-md p-6 mb-6 bg-[#111418]' onClick={open}>
@@ -17,6 +17,7 @@ const Listing = ({data,open}) => {
                                 <ProjectIcon iconName={icon2} />
                                 <ProjectIcon iconName={icon3} />
                                 <ProjectIcon iconName={icon4} />
+                                <ProjectIcon iconName={icon5} />
                             </div>
                         </div>
                     </div>
