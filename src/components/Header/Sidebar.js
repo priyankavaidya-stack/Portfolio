@@ -5,11 +5,24 @@ import { MdWork }  from 'react-icons/md';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import image from '../images/img.jpg';
+import image from '../../images/img.jpg';
+import useTheme from '../../contexts/theme';
 
 
 const Sidebar = () => {
     const [open,setOpen] = useState(false);
+
+    const { themeMode, lightTheme, darkTheme } = useTheme();
+
+
+    const onChangeBtn = (e) => {
+        const darkModeStatus = e.currentTarget.checked
+        if(darkModeStatus) {
+            darkTheme();
+        }else{
+            lightTheme();
+        }
+    }
 
     const menuLinks = [
         { name: "Home", link: "#home", icon:<FaHome size='20' /> },
@@ -17,7 +30,6 @@ const Sidebar = () => {
         { name: "What I Do", link: "#whatIdo", icon:<BsPersonWorkspace size='20' />},
         { name: "Resume", link: "#resume", icon:<BsPersonVcardFill size='20' /> },
         { name: "Porfolio", link: "#portfolio", icon:<MdWork size='20' /> }
-        // { name: "Contact", link: "#contact", icon:<FaPhoneAlt size='20' /> }
     ];
  
     return (
@@ -42,6 +54,12 @@ const Sidebar = () => {
                         <a href="https://github.com/priyankavaidya-stack"> 
                             <BsGithub className='m-2' size={14} color='#aab1b8' />
                         </a>
+                        <input type="checkbox"
+                            value=""
+                            className=''
+                            onChange={onChangeBtn}
+                            checked={ themeMode === "dark" }
+                        />
                     </ul>
                 </div>
 

@@ -35,7 +35,7 @@ const Modal = ({data,close}) => {
                                         <ProjectIcon iconName={icon2} />
                                         <ProjectIcon iconName={icon3} />
                                         <ProjectIcon iconName={icon4} />
-                                        <ProjectIcon iconName={icon5} />
+                                        {icon5 ? <ProjectIcon iconName={icon5} /> : '' }
                                     </div>
                             </div>
                         </div>

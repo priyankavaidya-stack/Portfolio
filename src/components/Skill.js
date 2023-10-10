@@ -3,7 +3,7 @@ import React from 'react';
 const skillsData = [
     {
         id:1,
-        skill: 'html/Css',
+        skill: 'HTML/CSS',
         expertise: '95%'
     },
     {
@@ -57,14 +57,14 @@ const skillsData = [
 const Skill = () => {
   return (
     <div>
-      <h2 className='text-2xl font-semibold mt-6 mx-3 text-white' id="skills">My Skills</h2>
+      <h2 className='text-2xl font-semibold mt-6 mx-3 text-white dark:text-[#252B33]' id="skills">My Skills</h2>
         <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-6 gap-4">
             { skillsData.map((ele) => (
                 <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3" key={ele.id}>
-                    <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8]'>{ele.skill}
+                    <p className='font-medium text-left mb-1.5 text-[#dee3e4] leading-[1.8] dark:text-[#212529]'>{ele.skill}
                         <span className='float-right'>{ele.expertise}</span>
                     </p>
-                    <div className='bg-[#111418] h-2 rounded-md'>
+                    <div className='bg-[#111418] h-2 rounded-md  dark:bg-[#E9ECEF]'>
                         <div className="bg-[#20c997] h-2 rounded-s" id="skillLevel" style={ele.expertise ? {width: ele.expertise} : ' '}></div>
                     </div>
                 </div>

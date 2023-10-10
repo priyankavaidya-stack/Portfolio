@@ -17,9 +17,9 @@ const Card = ({data}) => {
 
     return (
         <div className="max-[768px]:col-span-12 min-[768px]:col-span-4 mx-3">
-            <Listing data={data} open={openModal} close={closeModal} />
+            <Listing data={data} open={openModal} />
             {open && (
-                <ProjectDetail close={closeModal}>{<Modal data={data}/>}</ProjectDetail>
+                <ProjectDetail close={closeModal}>{<Modal data={data} close={closeModal}/>}</ProjectDetail>
             )}
         </div>
     )

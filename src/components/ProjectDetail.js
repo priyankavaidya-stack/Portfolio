@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-const ProjectDetail = ({children, close}) => {
+const ProjectDetail = ({children}) => {
     return (
-            <div className='overlay' onClick={close}>
+            <div className='overlay'>
                 {children}
             </div>
     );
