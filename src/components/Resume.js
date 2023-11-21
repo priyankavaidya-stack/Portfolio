@@ -1,5 +1,6 @@
 import React from 'react';
 import Skill from './Skill';
+import Resume1 from './Resume1';
 
 const Resume = () => {
     return(
@@ -17,7 +18,7 @@ const Resume = () => {
                     </div>
 
                      {/* about personal info feature */}
-                    <h2 className='text-[1.5rem] font-semibold mb-4 ml-3 text-white dark:text-[#252B33]'>My Experience</h2>
+                    {/* <h2 className='text-[1.5rem] font-semibold mb-4 ml-3 text-white dark:text-[#252B33]'>My Experience</h2>
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-3 gap-4">
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <div className='text-white rounded-md p-6 mb-6 bg-[#111418] dark:bg-white dark:border dark:border-[#eaeaea]'>
@@ -87,8 +88,10 @@ const Resume = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <Resume1 />
 
+                    {/* Education feature */}
                     <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-8 gap-4">
                         <div className="max-[768px]:col-span-12 min-[768px]:col-span-6 mx-3">
                             <h2 className='text-[1.5rem] font-semibold mb-4 text-white dark:text-[#252B33]'>My Education</h2>
