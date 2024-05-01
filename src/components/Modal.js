@@ -3,7 +3,7 @@ import ProjectIcon from './ProjectIcons';
 import {HiX} from 'react-icons/hi';
 
 const Modal = ({data,close}) => {
-    const {imageUrl, title, description,projectUrl,technology, icon1, icon2, icon3, icon4, icon5 } = data;
+    const {imageUrl, title, description,projectUrl,technology, date, icon1, icon2, icon3, icon4, icon5 } = data;
 
     return (
         <div className='modal'>
@@ -26,7 +26,7 @@ const Modal = ({data,close}) => {
                                     <h4 className='modal__title text-lg font-semibold mt-6 text-white'>Project Details:</h4>
                                     <ul className='p-0'>
                                         <li className='py-3 border-b border-solid border-[#fafafa1f]'><span className='mr-2'>Technologies:</span>{technology}</li>
-                                        <li className='py-3 border-b border-solid border-[#fafafa1f]'><span className='mr-2'>Date:</span>July 10, 2020</li>
+                                        <li className='py-3 border-b border-solid border-[#fafafa1f]'><span className='mr-2'>Date:</span>{date}</li>
                                         <li className='py-3 border-b border-solid border-[#fafafa1f]'><span className='mr-2'>URL:</span><a className='text-[#20c997]' href={projectUrl}>{projectUrl}</a></li>
                                     </ul>
 

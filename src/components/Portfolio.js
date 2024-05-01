@@ -18,8 +18,8 @@ const Portfolio = () => {
                             <span className='border-[#20c997] w-20 mx-auto border-1 border-b-4 block mt-2'></span>
                         </p>
                     </div>
-                    <div className="properties flex flex-row flex-wrap justify-center">
-                        <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-4 gap-4">
+                    <div className="properties flex flex-row flex-wrap justify-center items-center">
+                        <div className="grid xl:grid-cols-12 min-[991px]:grid-cols-12 grid-cols-12 mt-4">
                         {projectData.map((item) => (
                                 <Card key={item.id} data={item}/>
                         ))}
